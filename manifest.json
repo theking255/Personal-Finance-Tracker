@@ -1,0 +1,23 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "Personal Finance Tracker",
+  "orientation": "natural",
+  "scope": "/",
+  "short_name": "Ebanki",
+  "start_url": "ebanki.com",
+  "theme_color": "#ffffff",
+  "lang": "en",
+  "display_override": [
+    "standalone",
+    "browser",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "business",
+    "finance",
+    "navigation",
+    "productivity"
+  ]
+}
