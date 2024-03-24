@@ -15,6 +15,12 @@
     "browser",
     "window-controls-overlay"
   ],
+    "icons": [
+    {
+      "src": "/PFP.png",
+      "type": "image/png", "sizes": "72x72"
+    }
+  ],
   "categories": [
     "business",
     "finance",
