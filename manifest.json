@@ -18,7 +18,7 @@
     "icons": [
     {
       "src": "/PFP.png",
-      "type": "image/png", "sizes": "72x72"
+      "type": "image/png", "sizes": "512x512"
     }
   ],
   "categories": [
