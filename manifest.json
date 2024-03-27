@@ -17,7 +17,7 @@
   ],
     "icons": [
     {
-      "src": "/PFP.png",
+      "src": "PFP.png",
       "type": "image/png", "sizes": "512x512"
     }
   ],
