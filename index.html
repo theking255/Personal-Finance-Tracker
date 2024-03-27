@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Finance Tracker</title>
+  <link rel="shortcut icon" type="image/x-icon" href="PFP.jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json" />
+  
+</head>
+<body>
+  <h1>Personal Finance Tracker</h1>
+  <div id="form-container" class="animated container">
+    <h2>Add Transaction</h2>
+    <form id="transaction-form">
+      <label for="type">Type:</label>
+      <select name="type" id="type">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+      <label for="amount">Amount:</label>
+      <input type="number" name="amount" id="amount" required>
+      <label for="category">Category:</label>
+      <input type="text" name="category" id="category">
+      <label for="description">Description:</label>
+      <input type="text" name="description" id="description">
+      <label for="date">Date:</label>
+      <input type="date" name="date" id="date">
+      <button type="submit">Add Transaction</button>
+    </form>
+  </div>
+  <di class="head">
+    <div id="transactions-container">
+      <h2 style="text-align: center;">Transactions</h2>
+      <ul id="transactions-list"></ul>
+      <h2>Totals</h2>
+      <div id="totals-container">
+        <p id="total-income">Total Income: 00.00 Da</p>
+        <p id="total-expense">Total Expense: 00.00 Da</p>
+      </div>
+      <p id="net-balance"></p>
+    </div>
+  </di>
+  
+  
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</body>
+</html>
